@@ -1,5 +1,5 @@
 ### 一、Flutter路由、图片、字体路径等资源生成插件(Android Studio、IDEA...)
-<img src="https://github.com/Xie-Yin/FlutterPlugin/blob/main/imgs/plugin.png" width="750" >
+<img src="https://github.com/azhon/FlutterPlugin/blob/main/imgs/plugin.png" width="750" >
 
 ### 二、功能介绍
 

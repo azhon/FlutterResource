@@ -2,7 +2,7 @@
     <id>com.odbpo.flutter.plugin</id>
     <name>FlutterResource</name>
     <version>1.5.0</version>
-    <vendor email="azhon.cn@gmail.com" url="https://github.com/Xie-Yin/FlutterResource">azhon</vendor>
+    <vendor email="azhon.cn@gmail.com" url="https://github.com/azhon/FlutterResource">azhon</vendor>
 
     <description><![CDATA[
       <p>Flutter assets resource plugin.</p>
@@ -11,7 +11,7 @@
         <li>Generate assets Iconfont resources</li>
         <li>Generate routes, the fileName end of *page.dart</li>
       </ul>
-      <p><a href="https://github.com/Xie-Yin/FlutterPlugin">Instructions for use</a></p>
+      <p><a href="https://github.com/azhon/FlutterPlugin">Instructions for use</a></p>
     ]]></description>
 
     <change-notes><![CDATA[
