@@ -1,7 +1,7 @@
 <idea-plugin>
     <id>com.odbpo.flutter.plugin</id>
     <name>FlutterResource</name>
-    <version>1.5.0</version>
+    <version>1.5.1</version>
     <vendor email="azhon.cn@gmail.com" url="https://github.com/azhon/FlutterResource">azhon</vendor>
 
     <description><![CDATA[
@@ -51,7 +51,7 @@
             </group>
             <add-to-group group-id="ToolsMenu" anchor="first"/>
         </group>
-        <action id="CreateBloc" class="com.azhon.flutter.action.BlocAction" text="Bloc File"
+        <action id="CreateBloc" class="com.azhon.flutter.action.BlocAction" text="New Bloc File"
                 icon="AllIcons.Actions.Annotate"
                 description="Create bloc、event、state dart file.">
             <add-to-group group-id="NewGroup" anchor="after" relative-to-action="NewFile"/>

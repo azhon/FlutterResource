@@ -18,6 +18,11 @@
 - 获取项目`pubspec.yaml`中配置的`flutter:fonts`图标字体，生成`*_icon.dart`辅助类。
 - 注意：配置的fonts图标字体文件必须以`*iconfont.ttf`结尾，同时在`ttf`文件旁边还需要放置`iconfont.json`文件。（在iconfont网站下载的时候都会有这些）
 
+#### Create Bloc File
+- 在需要创建的文件夹上右键`New Bloc File`
+- 注意：这个功能是配合[todo_flutter](https://github.com/azhon/todo-flutter)框架进行使用的
+<img src="https://github.com/azhon/FlutterResource/blob/main/imgs/bloc.png" width="350" >
+
 ### 三、使用
 - [插件市场安装](https://plugins.jetbrains.com/plugin/22595-flutterresource)
 
