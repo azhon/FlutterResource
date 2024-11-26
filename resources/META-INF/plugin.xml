@@ -34,24 +34,24 @@
     </extensions>
 
     <actions>
-        <group id="XyActionGroup" class="com.odbpo.flutter.group.FlutterResActionGroup">
+        <group id="XyActionGroup" class="com.azhon.flutter.group.FlutterResActionGroup">
             <group text="Build Flutter Resource" popup="true">
                 <action id="xy.build.assets" text="Build Assets" description="Generate module assets resource"
-                        class="com.odbpo.flutter.action.AssetsAction">
+                        class="com.azhon.flutter.action.AssetsAction">
                     <keyboard-shortcut keymap="$default" first-keystroke="alt a"/>
                 </action>
                 <action id="xy.build.route" text="Build Routes" description="Generate module route resource"
-                        class="com.odbpo.flutter.action.RouteAction">
+                        class="com.azhon.flutter.action.RouteAction">
                     <keyboard-shortcut keymap="$default" first-keystroke="alt r"/>
                 </action>
                 <action id="xy.build.iconfont" text="Build Iconfont" description="Generate module iconfont resource"
-                        class="com.odbpo.flutter.action.IconfontAction">
+                        class="com.azhon.flutter.action.IconfontAction">
                     <keyboard-shortcut keymap="$default" first-keystroke="alt c"/>
                 </action>
             </group>
             <add-to-group group-id="ToolsMenu" anchor="first"/>
         </group>
-        <action id="CreateBloc" class="com.odbpo.flutter.action.BlocAction" text="Bloc File"
+        <action id="CreateBloc" class="com.azhon.flutter.action.BlocAction" text="Bloc File"
                 icon="AllIcons.Actions.Annotate"
                 description="Create bloc、event、state dart file.">
             <add-to-group group-id="NewGroup" anchor="after" relative-to-action="NewFile"/>

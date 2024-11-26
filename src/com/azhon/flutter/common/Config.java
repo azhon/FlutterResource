@@ -1,4 +1,4 @@
-package com.odbpo.flutter.common;
+package com.azhon.flutter.common;
 
 import com.intellij.openapi.project.Project;
 

@@ -1,4 +1,4 @@
-package com.odbpo.flutter.bean;
+package com.azhon.flutter.bean;
 
 import com.google.gson.annotations.SerializedName;
 

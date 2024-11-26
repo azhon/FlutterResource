@@ -1,6 +1,6 @@
-package com.odbpo.flutter.bean;
+package com.azhon.flutter.bean;
 
-import com.odbpo.flutter.util.StringUtil;
+import com.azhon.flutter.util.StringUtil;
 
 /**
  * createDate: 2023/9/16 on 14:02

@@ -1,4 +1,4 @@
-package com.odbpo.flutter.util;
+package com.azhon.flutter.util;
 
 import com.intellij.openapi.application.WriteAction;
 import com.intellij.openapi.fileTypes.PlainTextFileType;
@@ -10,8 +10,8 @@ import com.intellij.psi.PsiFile;
 import com.intellij.psi.PsiFileFactory;
 import com.intellij.psi.PsiManager;
 import com.intellij.util.ThrowableRunnable;
-import com.odbpo.flutter.common.Config;
-import com.odbpo.flutter.common.Constants;
+import com.azhon.flutter.common.Config;
+import com.azhon.flutter.common.Constants;
 
 import java.io.File;
 import java.io.IOException;

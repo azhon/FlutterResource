@@ -1,4 +1,4 @@
-package com.odbpo.flutter.group;
+package com.azhon.flutter.group;
 
 import com.intellij.openapi.actionSystem.AnActionEvent;
 import com.intellij.openapi.actionSystem.DefaultActionGroup;

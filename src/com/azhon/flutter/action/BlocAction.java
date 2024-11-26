@@ -1,4 +1,4 @@
-package com.odbpo.flutter.action;
+package com.azhon.flutter.action;
 
 import com.intellij.openapi.actionSystem.AnAction;
 import com.intellij.openapi.actionSystem.AnActionEvent;
@@ -8,8 +8,8 @@ import com.intellij.openapi.project.Project;
 import com.intellij.openapi.ui.Messages;
 import com.intellij.openapi.vfs.VirtualFile;
 import com.intellij.util.ThrowableRunnable;
-import com.odbpo.flutter.bean.BlocBean;
-import com.odbpo.flutter.util.FileUtil;
+import com.azhon.flutter.bean.BlocBean;
+import com.azhon.flutter.util.FileUtil;
 
 import org.jetbrains.annotations.NotNull;
 

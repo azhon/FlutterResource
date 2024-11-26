@@ -1,6 +1,6 @@
-package com.odbpo.flutter.bean;
+package com.azhon.flutter.bean;
 
-import com.odbpo.flutter.common.Constants;
+import com.azhon.flutter.common.Constants;
 
 import java.io.File;
 

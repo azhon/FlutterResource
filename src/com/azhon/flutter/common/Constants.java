@@ -1,4 +1,4 @@
-package com.odbpo.flutter.common;
+package com.azhon.flutter.common;
 
 /**
  * createDate: 2022/11/16 on 21:44
