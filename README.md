@@ -21,7 +21,7 @@
 #### Create Bloc File
 - 在需要创建的文件夹上右键`New Bloc File`
 - 注意：这个功能是配合[todo_flutter](https://github.com/azhon/todo-flutter)框架进行使用的
-<img src="https://github.com/azhon/FlutterResource/blob/main/imgs/bloc.png" width="350" >
+<img src="https://github.com/azhon/FlutterResource/blob/main/imgs/bloc.png" width="600" >
 
 ### 三、使用
 - [插件市场安装](https://plugins.jetbrains.com/plugin/22595-flutterresource)
