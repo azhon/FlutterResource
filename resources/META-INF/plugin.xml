@@ -1,7 +1,7 @@
 <idea-plugin>
     <id>com.odbpo.flutter.plugin</id>
     <name>FlutterResource</name>
-    <version>1.5.1</version>
+    <version>1.5.2</version>
     <vendor email="azhon.cn@gmail.com" url="https://github.com/azhon/FlutterResource">azhon</vendor>
 
     <description><![CDATA[

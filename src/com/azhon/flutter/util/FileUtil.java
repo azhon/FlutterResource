@@ -1,5 +1,7 @@
 package com.azhon.flutter.util;
 
+import com.azhon.flutter.common.Config;
+import com.azhon.flutter.common.Constants;
 import com.intellij.openapi.application.WriteAction;
 import com.intellij.openapi.fileTypes.PlainTextFileType;
 import com.intellij.openapi.project.Project;
@@ -9,11 +11,7 @@ import com.intellij.psi.PsiDirectory;
 import com.intellij.psi.PsiFile;
 import com.intellij.psi.PsiFileFactory;
 import com.intellij.psi.PsiManager;
-import com.intellij.util.ThrowableRunnable;
-import com.azhon.flutter.common.Config;
-import com.azhon.flutter.common.Constants;
 
-import java.io.File;
 import java.io.IOException;
 import java.io.OutputStream;
 import java.nio.charset.StandardCharsets;
@@ -71,21 +69,22 @@ public class FileUtil {
     public static VirtualFile createDir(Project project, String dir) {
         VirtualFile libFile = ProjectUtil.guessProjectDir(project).findChild(Constants.LIB_DIR);
         if (libFile == null) return null;
-        try {
-            WriteAction.run((ThrowableRunnable<Throwable>) () -> {
+        return WriteAction.compute(() -> {
+            try {
                 VirtualFile generated = libFile.findChild(Constants.GENERATED_DIR);
                 if (generated == null) {
                     generated = libFile.createChildDirectory(project, Constants.GENERATED_DIR);
                 }
-                VirtualFile bridge = generated.findChild(dir);
-                if (bridge == null) {
+                VirtualFile dirFile = generated.findChild(dir);
+                if (dirFile == null) {
                     generated.createChildDirectory(project, dir);
                 }
-            });
-        } catch (Throwable e) {
-            e.printStackTrace();
-        }
-        return libFile.findFileByRelativePath(Constants.GENERATED_DIR + File.separator + dir);
+                return generated.findChild(dir);
+            } catch (Throwable e) {
+                e.printStackTrace();
+            }
+            return null;
+        });
     }
 
     /**
