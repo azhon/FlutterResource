@@ -38,7 +38,7 @@ public class IconfontBean {
     }
 
     public String getTtfJsonPath() {
-        return ttfPath.substring(0, ttfPath.lastIndexOf(File.separator)) + File.separator + Constants.ICONFONT_JSON;
+        return ttfPath.substring(0, ttfPath.lastIndexOf("/")) + File.separator + Constants.ICONFONT_JSON;
     }
 }
 
