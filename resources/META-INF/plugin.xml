@@ -11,7 +11,7 @@
         <li>Generate assets Iconfont resources</li>
         <li>Generate routes, the fileName end of *page.dart</li>
       </ul>
-      <p><a href="https://github.com/azhon/FlutterPlugin">Instructions for use</a></p>
+      <p><a href="https://github.com/azhon/FlutterResource">Instructions for use</a></p>
     ]]></description>
 
     <change-notes><![CDATA[
